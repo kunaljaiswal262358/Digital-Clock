@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#243137;
+}
+
+.clock-container {
+    font-size: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.579);
+}
+
+.current-date {
+    color: #18b5b2
+}
+
+.current-time {
+    color: #5ec076;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 300;
+}
